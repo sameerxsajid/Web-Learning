@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day1</title>
 </head>
-<body>
-    <h1>hi i am sameer
-        
-    </h1>
-</body
+
+<body style="color: rgb(218, 29, 29);">
+
+    <h1 style="color: rgb(24, 192, 52);">self learning day1 </h1>
+    <h2>By sajid </h2>
+    <hr>
+    <ul>
+        <li>basic information of githup app </li>
+        <li>how to sign up account </li>
+        <li>learn how more than 1 people work on 1 web site </li>
+        <ul>
+            <li>installation of app </li>
+            <li>how to work on githup app </li>
+            <li>oter nformation of githup applet</li>
+        </ul>
+    </ul>
+</body>
+
+</html>
