@@ -7,7 +7,7 @@
     <title>day 1 </title>
 </head>
 
-<body style="color: rgb(81, 197, 197);">
+<body style="color: rgb(20, 206, 206);">
     <button style="color: rgb(146, 182, 16);">
         <a href="./../">Back</a>
     </button>
@@ -26,4 +26,3 @@
     </ul>
 </body>
 
-</html>
