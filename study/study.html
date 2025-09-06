@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Section</title>
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* Feedback Container */
+    .feedback-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Feedback Box Styling */
+    .feedback-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .feedback-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Feedback Title */
+    .feedback-box h3 {
+      color: #007bff;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    /* Feedback Text */
+    .feedback-box p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>FEEDBACKS</h2>
+
+  <div class="feedback-container">
+    <div class="feedback-box">
+      <h3>Feedback 1</h3>
+      <p>Good performance. Some users found the trimmer performed well, with one user saying it was worth the price to buy without prior research.</p>
+    </div>
+
+    <div class="feedback-box">
+      <h3>Feedback 2</h3>
+      <p>Good accessories. The quality of the comb attachments was specifically mentioned as a positive point, making trimming easier.</p>
+    </div>
+
+    <div class="feedback-box">
+      <h3>Feedback 3</h3>
+      <p>Users are generally satisfied with its multi-purpose use for trimming hair and beard. Easy to clean and maintain.</p>
+    </div>
+  </div>
+
+</body>
+</html>
