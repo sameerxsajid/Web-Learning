@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Products - Wilson Sporting Goods</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Wilson Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo-text">WILSON SPORTING GOODS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="compare.html">Compare Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5 mt-5">
+        <div class="container">
+            <h1 class="display-4">Compare Products</h1>
+            <p class="lead text-muted">Compare features and specifications of different products</p>
+        </div>
+    </section>
+
+    <!-- Product Selection -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-4">
+                        <i class="fas fa-balance-scale text-primary me-2"></i>Select Products to Compare
+                    </h4>
+                    <div class="row g-3">
+                        <div class="col-md-5">
+                            <label for="product1" class="form-label fw-semibold">
+                                <i class="fas fa-tag text-primary me-1"></i>First Product
+                            </label>
+                            <select class="form-select form-select-lg" id="product1">
+                                <option value="">Choose a product...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 text-center d-flex align-items-end justify-content-center">
+                            <div class="vs-badge bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-weight: bold;">
+                                VS
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="product2" class="form-label fw-semibold">
+                                <i class="fas fa-tag text-primary me-1"></i>Second Product
+                            </label>
+                            <select class="form-select form-select-lg" id="product2">
+                                <option value="">Choose a product...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary btn-lg px-5" id="compare-btn">
+                                <i class="fas fa-search me-2"></i>Compare Products
+                            </button>
+                            <button class="btn btn-outline-secondary btn-lg px-4 ms-2" id="clear-btn">
+                                <i class="fas fa-times me-2"></i>Clear
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="py-5">
+        <div class="container">
+            <div id="comparison-result">
+                <div class="text-center py-5">
+                    <i class="fas fa-balance-scale fa-4x text-muted mb-3"></i>
+                    <h4 class="text-muted">No Comparison Yet</h4>
+                    <p class="text-muted">Select two products above and click "Compare Products" to see a detailed comparison.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Wilson Sporting Goods</h5>
+                    <p class="mb-0">Your trusted partner for premium sports equipment</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2024 Wilson Sporting Goods. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/compare.js"></script>
+</body>
+</html>
+
